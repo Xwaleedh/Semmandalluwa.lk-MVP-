@@ -10,7 +10,7 @@ body {
     margin-top: 30px;
 }
 
-.item-image {
+.Mango-item-image {
     flex: 1;
     background: url('./Assets/Mango.jpg') center center/cover no-repeat;
     margin: 10px;
