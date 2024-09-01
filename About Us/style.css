@@ -8,3 +8,17 @@
     width: 95%;
     margin: 0%;
 }
+
+.about-us-landing{
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background-image: url('../Assets/Farm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.para{
+    font-weight: bold;
+}
