@@ -12,3 +12,8 @@ window.addEventListener("load", () => {
     });
   });
   
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        document.querySelector('.loading-screen').style.display = 'none';
+    }, 3000); // 3 seconds
+});
