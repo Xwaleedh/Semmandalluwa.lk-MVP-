@@ -11,6 +11,38 @@ body, html {
   --article-load-delay: calc(var(--nav-load-time) + var(--nav-link-load-time))
 }
 
+/* Mobile devices */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+/* Larger devices */
+@media (min-width: 769px) {
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 auto;
+  margin: 10px;
+}
+
+
+
 .loading-screen {
   position: fixed; /* Fixed positioning to overlay on top */
   top: 0;
